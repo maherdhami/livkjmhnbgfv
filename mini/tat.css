@@ -1,0 +1,111 @@
+#container{
+    height:30px;
+    width:1300px;
+    border:2px;
+    border-color:black;
+    border-style: dashed; 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items:first baseline;
+}
+#dodzo{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0cqb;
+    text-align:initial;
+}
+#home{
+    color: white;
+}
+#about{
+    color: white;
+    
+}
+
+#shop{
+    color: white;
+}
+#tshirt{
+    color: white;
+}
+#shirt{
+    color: white;
+}
+.tshirts{
+    align-content: center;
+    height:300px;
+    width:300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqus8VTpnFV11HZMFSvNkPvDpduB4YOCT9hQ&s");
+    background-size: cover;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display:flex;
+    display:inline;
+}
+.shirts{
+    display:inline;
+    align-content: center;
+    height:300px;
+    width:300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqus8VTpnFV11HZMFSvNkPvDpduB4YOCT9hQ&s");
+    background-size: cover;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display:flex;
+}
+.pants{
+    align-content: center;
+    height:300px;
+    width:300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqus8VTpnFV11HZMFSvNkPvDpduB4YOCT9hQ&s");
+    background-size: cover;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display:flex;
+    display:inline;
+}
+
+
+
+#container{
+    height:30px;
+    width:1300px;
+    border:2px;
+    border-color:black;
+    border-style: dashed; 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items:first baseline;
+}
+#dodzo{
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0cqb;
+    text-align:initial;
+}
+#home{
+    color: white;
+}
+#about{
+    color: white;
+    
+}
+
+#shop{
+    color: white;
+}
+#tshirt{
+    color: white;
+}
+#shirt{
+    color: white;
+}
+.tshirts{
+    align-content: center;
+    height:300px;
+    width:300px;
+}

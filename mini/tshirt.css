@@ -1,0 +1,136 @@
+#container {
+    color: white;
+    height: 30px;
+    width: 1300px;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: baseline;
+    transition: all 0.5s ease; /* Smooth transition for all properties */
+    animation: slideIn 1.5s ease-out forwards; /* Slide-in animation */
+}
+
+/* Slide-in animation for the container */
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#dodzo {
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    text-align: initial;
+    transition: all 0.3s ease;
+}
+
+#dodzo:hover {
+    color: aqua;
+    text-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+    transform: rotate(5deg) scale(1.1); /* Rotation and scaling on hover */
+}
+
+#home, #about, #shop, #tshirt, #shirt {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#tshirt:hover {
+    color: aqua;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: rotate(15deg) scale(1.2); /* Rotates and scales on hover */
+    transition: all 0.4s ease-in-out;
+}
+
+#one{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 2s ease-out; /* Fade-in effect */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqus8VTpnFV11HZMFSvNkPvDpduB4YOCT9hQ&s");
+}
+#two{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 2s ease-out; /* Fade-in effect */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp-zn9u_YHBUjHV2AjCNjDL8LvVC_su8C3Ww&s");
+}
+#three{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 2s ease-out; /* Fade-in effect */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXbFp2xp0W1NP7lLbtvI7ZApBuaI2wmFTOcA&s");
+}
+#four{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 2s ease-out; /* Fade-in effect */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMFHOqe6AGSp_cXAFkMVQkj1OaKEM7HKExbA&s");
+}
+
+/* Fade-in animation for images */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#one:hover, #two:hover, #three:hover, #four:hover {
+    transform: translateY(-15px) rotate(5deg); /* Moves up and rotates slightly */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+}
+
+.t1:hover {
+    color: aqua;
+    animation: pulse 1.5s infinite ease-in-out; /* Continuous pulse effect */
+}
+
+/* Pulse animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
